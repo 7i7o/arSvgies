@@ -1,5 +1,5 @@
 {
-    "name": "@7i7o/arSvgies",
+    "name": "@7i7o/arsvgies",
     "version": "0.0.1",
     "description": "",
     "main": "dist/index.js",
@@ -38,6 +38,7 @@
     },
     "devDependencies": {
         "@changesets/cli": "^2.27.1",
+        "@types/node": "^20.11.19",
         "tsup": "^8.0.1",
         "typescript": "^5.3.3"
     }
