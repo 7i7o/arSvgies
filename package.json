@@ -1,0 +1,44 @@
+{
+    "name": "@7i7o/arSvgies",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "lint": "tsc",
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "release": "pnpm run build && changeset publish"
+    },
+    "keywords": [
+        "typescript",
+        "pnpm",
+        "tsup",
+        "changesets"
+    ],
+    "author": "7i7o",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist/",
+        "src/",
+        ".github/",
+        ".gitignore",
+        "package.json",
+        "tsconfig.json",
+        "README.md",
+        "CHANGELOG.md"
+    ],
+    "homepage": "https://github.com/7i7o/arSvgies#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/7i7o/arSvgies.git"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.27.1",
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3"
+    }
+}
